@@ -6,20 +6,24 @@
 - Follow DRY principles
 - Follow KISS principles
 - Follow YAGNI principles
-- Follow separation of concerns
-- Follow single responsibility principle
-- Follow open/closed principle
-- Follow Liskov substitution principle
-- Follow interface segregation principle
-- Follow dependency inversion principle
-- Never use depricated methods
+- Follow SMART principles
+
+# Accessibility
+
+- Ensure all UI elements are accessible
+- Use appropriate labels and descriptions
+- Support keyboard navigation
+- Support screen readers
 
 # Code style
 
 - Keep UI code modular and testable
-- Make each UI block easily identifyable
+- Make each UI block easily identifiable
 - Use IDs for UI elements
 - Use meaningful variable and function names
+- Never use deprecated methods
+- Do not eat exceptions
+- Throw exceptions when appropriate. Never silently fail.
 
 # Unit tests
 
