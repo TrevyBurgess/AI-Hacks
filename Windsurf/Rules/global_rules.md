@@ -20,10 +20,11 @@
 - Keep UI code modular and testable
 - Make each UI block easily identifiable
 - Use IDs for UI elements
-- Use meaningful variable and function names
-- Never use deprecated methods
+- Use meaningful variable and functions
+- Never use deprecated or obsolete methods
 - Do not eat exceptions
 - Throw exceptions when appropriate. Never silently fail.
+- Log all exceptions with full stack trace
 
 # Unit tests
 
