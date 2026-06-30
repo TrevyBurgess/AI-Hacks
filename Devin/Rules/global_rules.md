@@ -22,7 +22,8 @@
 - Use IDs for UI elements
 - Use meaningful variable and functions
 - Never use deprecated or obsolete methods
-- Do not eat exceptions
+- Never eat exceptions
+- Always warn users of failed actions
 - Throw exceptions when appropriate. Never silently fail.
 - Log all exceptions with full stack trace
 
